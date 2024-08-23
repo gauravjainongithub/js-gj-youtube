@@ -33,7 +33,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 console.log(booleanIsLoggedIn);
 console.log("************************************************");
 
-let someValue = "false";
+let someValue = 420;
 
 let stringValue = String(someValue);
 console.log(stringValue);
