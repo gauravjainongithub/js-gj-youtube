@@ -37,5 +37,5 @@ let someValue = 420;
 
 let stringValue = String(someValue);
 console.log(stringValue);
-  console.log(typeof stringValue);
+console.log(typeof stringValue);
      
