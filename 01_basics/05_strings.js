@@ -35,7 +35,7 @@ console.log(stringOne.trimEnd());
 
 const url = "https://gauravjain.com/gaurav%20jain";
 
-console.log(url.replace('%20', '-'));
+console.log(url.replace('%20', '-')); //only first occurance, use replaceAll for replacing all occurance
 
 console.log(url.includes("gaur"));
 console.log(url.includes("gaurav"));
