@@ -33,6 +33,6 @@ console.log(Math.floor(Math.random()*10) + 1);
 let min = 10;
 let max = 20;
 
-console.log(Math.floor(Math.random()*(max - min) + 1) + min);
+console.log(Math.floor(Math.random()*(max - min + 1) + min)); //(max -min +1) is done so that we can get the max value else wo would not be abe to get the max value. ((max - min) +1) will not give the minimum value.
 
 
